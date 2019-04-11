@@ -1,16 +1,16 @@
 
-### SI507 - Final Project by Youngsoo Choy
+# SI507 - Final Project by Youngsoo Choy
 
 -------------------------------
 
 ## Overall
 
-# My project will...
+### My project will...
 
 scrape data from youtube API and allow a user to search for the most viewed in a given country on a given date (or month). A route linked with the application will show the title of video, the name of channel, the number of likes and dislikes that the video got. Another route will visualize information about certain number of videos that user input in a specific country. The other route will show the top 5 most popular tags on a given day.   
 
 
-# I want to focus on...
+### I want to focus on...
 making an easy interface window to get a correct input from a user by specifying search terms. I'd like to make a dropdown menu on a route to avoid mistype or wrong input from a user.  
 
 
@@ -29,7 +29,7 @@ making an easy interface window to get a correct input from a user by specifying
 
 ## Specifics
 
-# I will be relying on data from
+### I will be relying on data from
 scraping , making requests to Youtube API, caching the data. The user input can specify the search term in the cached data.
 
 An example of my data OR link to documentation of the API I’ll use OR the website I will be scraping is here: https://www.googleapis.com/youtube/v3nput)
@@ -64,7 +64,7 @@ how to make dropdown menus on a page https://www.w3schools.com/howto/howto_js_dr
 
 ## Other
 
-# My biggest concerns about my work on this project are
+### My biggest concerns about my work on this project are
  - whether I can scrape data from Youtube successfully. I haven't tried scraping yet, but I knew that Youtube data were open to public a few months ago. I should check if it's still available, and if I can use codes from my previous assignments for it.
  - whether I can broaden the period of search with some text data manipulation or not. I would try to make this application allow a user to search for a certain month. I might need to revisit advanced_expiry_caching.py to transform time data.
  DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S.%f"
@@ -72,5 +72,5 @@ how to make dropdown menus on a page https://www.w3schools.com/howto/howto_js_dr
  - which data visualization tools or methods that I need to use to make the information easily understandable.
 
 
-# I feel confident that I can complete these parts of the project I am planning
+### I feel confident that I can complete these parts of the project I am planning
 ...is not much. I'll figure out what I can do and can't do after I start building it.
