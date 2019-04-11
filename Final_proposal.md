@@ -29,7 +29,7 @@ making an easy interface window to get a correct input from a user by specifying
 
 ## Specifics
 
-# I will be relying on data from
+### I will be relying on data from
 scraping , making requests to Youtube API, caching the data. The user input can specify the search term in the cached data.
 
 An example of my data OR link to documentation of the API I’ll use OR the website I will be scraping is here: https://www.googleapis.com/youtube/v3nput)
