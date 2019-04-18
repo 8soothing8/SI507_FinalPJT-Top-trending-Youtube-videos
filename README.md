@@ -2,7 +2,8 @@
 
 ## Project Description
 
-This should be a brief description of what your project is and does.
+This app finds the top 10 most popular videos on youtube in a certain country and build a database containing detailed information about them. 
+A user can see the video that was most viewed, or most liked through an website (localhost route that will be created for next week)    
 
 ## How to run  
 (Important: GET YOUR OWN Youtube Data API key and replace a blank in 'DEVELOPER_KEY' = " " in SI507project_tools.py file with your own key)
