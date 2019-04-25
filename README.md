@@ -39,11 +39,11 @@ It builds a database with information and creates a cached file as well.
 - SI507project_tests.py	
 - SI507project_tools.py	
 - templates
-  -- welcome.html
-  -- result.html
-  -- channel.html
-  -- reaction.html
-  -- country.html
+  - welcome.html
+  - result.html
+  - channel.html
+  - reaction.html
+  - country.html
 - youtube_popular_videos.db
 - SI507finalproject_cached_data
 - youtube_diagram.pdf
