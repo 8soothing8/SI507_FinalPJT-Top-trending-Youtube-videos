@@ -101,7 +101,7 @@ def make_cache():
 def make_call():
     list_videos_by_id = youtube.videos().list(part = "id, snippet, contentDetails, statistics",
                       chart ='mostPopular', regionCode = "US",
-               maxResults = 6, videoCategoryId ='').execute()
+               maxResults = 10, videoCategoryId ='').execute()
     popular_videos = list_videos_by_id.get("items", [])
 
     for video in popular_videos:
