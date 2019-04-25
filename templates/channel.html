@@ -1,0 +1,9 @@
+<h1><p style = "font-family:verdana;font-size:22px"> Top trending videos's creators in the US </p></h1>
+
+<ul>
+  {% for title in channel_ofvideo %}
+    <li><p style = "font-family:verdana;font-size:14px">{{title}}</p></li>
+  {% endfor %}
+</ul>
+
+<a href="{{ url_for('welcome')}}">Return to home page</a>

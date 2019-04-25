@@ -1,0 +1,12 @@
+<h1><p style = "font-family:verdana;font-size:22px"> Choose your country to search </p></h1>
+
+<form action="http://localhost:5000/country" method='GET'>
+  <select name="country">
+    {% for country in country_codes %}
+    <option value="{{country}}">{{country}}</option>
+    {% endfor %}
+  </select>
+  <input type="submit" value="Submit">
+</form>
+
+<a href="{{url_for('welcome')}}">Return to home page</a>

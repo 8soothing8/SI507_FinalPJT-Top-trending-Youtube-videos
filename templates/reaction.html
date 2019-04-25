@@ -1,0 +1,12 @@
+<h1><p style = "font-family:verdana;font-size:22px"> Popularity of top trending videos </p></h1>
+
+<p style = "font-family:verdana;font-size:16px"> Index : Video Title, View count, Like count, Dislike count </p>
+
+
+<ul>
+  {% for reaction in reaction_tovideo %}
+    <li><p style = "font-family:verdana;font-size:14px">{{reaction}}</p></li>
+  {% endfor %}
+</ul>
+
+<a href="{{ url_for('welcome')}}">Return to home page</a>
