@@ -14,7 +14,7 @@ It builds a database with information and creates a cached file as well.
 (GET YOUR OWN Youtube Data API key and replace a blank in 'DEVELOPER_KEY' = " " in SI507project_tools.py file with your own key)
 1. Download or clone project files
 2. Install all requirements with `pip install -r requirements.txt`
-3. Run `python SI507project_tools.py
+3. Run `python SI507project_tools.py`
 
 ## How to use  
 
@@ -23,10 +23,10 @@ It builds a database with information and creates a cached file as well.
 
 ## Routes in this application   
 
-- '/' : Main index page - It provides with welcome message and functions that links to search for several functions
-- '/result' - shows the top 12 most popular video. 
-- '/reaction' - displays view counts, like counts, and dislike count information of top trending videos.
-- 'channel' - gives channels that created today's top trending videos.
+- `/` : Main index page - It provides with welcome message and functions that links to search for several functions
+- `/result` - shows the top 12 most popular video. 
+- `/reaction` - displays view counts, like counts, and dislike count information of top trending videos.
+- `/channel` - gives channels that created today's top trending videos.
 
 
 ## How to run tests
