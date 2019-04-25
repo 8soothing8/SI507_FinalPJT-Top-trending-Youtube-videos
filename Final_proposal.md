@@ -30,22 +30,27 @@ making an easy interface window to get a correct input from a user by specifying
 ## Specifics
 
 ### I will be relying on data from
-scraping , making requests to Youtube API, caching the data. The user input can specify the search term in the cached data.
+Youtube data API. 
 
 An example of my data OR link to documentation of the API I’ll use OR the website I will be scraping is here: https://www.googleapis.com/youtube/v3nput)
 
-I expect my database schema to include number tables. The entities each table will represent are: list entities, such as video titles, video makers, the number of likes and dislikes, etc.
+### I expect my database schema to include 
+number tables. The entities each table will represent are list. There will be three tables that constain information about the most popular vidoes, channels that created the most popular vidoes, and reactions to the most popular videos respectively.   
+There will be a one to one and many to one relationship between relevant tables. 
 
-I haven't decided yet if I will be saving data to a database when it’s accessed via API or directly accessing to specific information in a cached json file.
+### I will be populating the database by 
+saving data to a database when the application is run and access the data via an API.
 
-I am planning to use the following modules in writing my code, aside from Flask and SQLAlchemy or some equivalent:
+### I am planning to use the following modules in writing my code, aside 
+- apiclient.discovery 
+- apiclient.errors
+- oauth2client.tools ---- They are to get data from Youtube API
+- csv
+- json
+- plotly - for charting/graphing data
+- matplotlib - I don't know about how to use it, but will check and see
 
- - requests_cache - for caching data I scrape
- - plotly - for charting/graphing data
- - matplotlib - I don't know about how to use it, but will check and see
-
-I will be defining the following classes outside of Flask routes/models:
-
+### I will be defining the following classes outside of Flask routes/models:
 A class that search the most viewed video. The below is brief idea of what can construct the class.
 
 class most_viewed(user_input):
