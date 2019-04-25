@@ -1,8 +1,7 @@
 
 # Today's top trending Youtube videos
 
-## Youngsoo Choy
-## https://github.com/8soothing8/SI507_FinalPJT
+## Youngsoo Choy (https://github.com/8soothing8/SI507_FinalPJT)
 
 ## Project Description
 
