@@ -5,12 +5,13 @@
 
 ## Project Description
 
-This app finds the top 10 most popular videos on youtube in a certain country and build a database containing detailed information about them. 
-A user can see the video that was most viewed, or most liked through an website (localhost route that will be created for next week)    
+This app finds the top 12 most popular videos on youtube in a certain country and gives detailed information of those videos.
+A user can check the titles and creators of the most popular videos and reactions to them through links provided in the main homepage. 
+It builds a database with information and creates a cached file as well. 
 
 ## How to run  
-(GET YOUR OWN Youtube Data API key and replace a blank in 'DEVELOPER_KEY' = " " in SI507project_tools.py file with your own key)
 
+(GET YOUR OWN Youtube Data API key and replace a blank in 'DEVELOPER_KEY' = " " in SI507project_tools.py file with your own key)
 1. Download or clone project files
 2. Install all requirements with `pip install -r requirements.txt`
 3. Run `python SI507project_tools.py
